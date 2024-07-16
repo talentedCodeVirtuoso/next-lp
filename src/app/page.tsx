@@ -80,6 +80,40 @@ export default function Home() {
           </p>
         </span>
       </div>
+
+      <section id="offer" className="max-w-5xl flex flex-col gap-y-4">
+        <h2 className="text-3xl font-semibold">Our offer</h2>
+
+        <div>
+          <div className="flex flex-col gap-y-2 p-4 border border-gray-200 rounded-lg">
+            <h3 className="text-xl font-semibold">Chatbots</h3>
+            <p>
+              Our AI-powered chatbots are designed to provide customer service,
+              automate sales processes, and engage with your audience.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div className="flex flex-col gap-y-2 p-4 border border-gray-200 rounded-lg">
+            <h3 className="text-xl font-semibold">Analytics</h3>
+            <p>
+              Our predictive analytics tools help you make data-driven
+              decisions, identify trends, and optimize your business operations.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div className="flex flex-col gap-y-2 p-4 border border-gray-200 rounded-lg">
+            <h3 className="text-xl font-semibold">Automations</h3>
+            <p>
+              Our automation tools streamline repetitive tasks, improve
+              efficiency, and reduce human errors.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
