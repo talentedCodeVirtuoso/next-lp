@@ -20,6 +20,43 @@ export default function Home() {
           Book a call
         </a>
       </header>
+
+      <p>Use AI to your advantage!</p>
+
+      <section id="about" className="flex gap-x-20 max-w-5xl">
+        <span className="max-w-xl flex flex-col gap-y-4">
+          <h2 className="text-3xl font-semibold">About us</h2>
+
+          <p>
+            TechStart Inc. is a cutting-edge technology startup specializing in
+            artificial intelligence solutions for small to medium-sized
+            businesses. We offer AI-powered customer service chatbots,
+            predictive analytics, and automation tools to streamline business
+            operations and enhance customer experiences.
+          </p>
+        </span>
+
+        <div className="flex flex-col gap-y-4">
+          <h3 className="text-xl font-medium">What do people say?</h3>
+
+          <ul className="gap-y-2 flex flex-col">
+            <li className="flex flex-col gap-y-2 border border-gray-200 p-3 rounded-lg">
+              <div className="flex gap-x-1.5 items-center">
+                <div className="h-6 w-6 rounded-full bg-gray-800"></div>
+                <p className="font-semibold">ByteWorks</p>
+              </div>
+              <p>Amazing job! Productivity boosted x5</p>
+            </li>
+            <li className="flex flex-col gap-y-2 border border-gray-200 p-3 rounded-lg">
+              <div className="flex gap-x-1.5 items-center">
+                <div className="h-6 w-6 rounded-full bg-gray-800"></div>
+                <p className="font-semibold">FitWave</p>
+              </div>
+              <p>Wow. It should be illegal to use such a tools!</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }
