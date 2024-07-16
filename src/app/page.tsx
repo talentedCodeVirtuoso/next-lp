@@ -57,6 +57,29 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
+      <div className="py-7 px-3 border-y border-gray-200 bg-gray-50 w-full grid gap-y-4 divide-x divide-gray-200 grid-cols-3">
+        <span className="flex flex-col items-center gap-y-1">
+          <p className="font-bold text-4xl">14</p>
+          <p className="font-semibold text-gray-800 text-lg uppercase">
+            AI Systems created
+          </p>
+        </span>
+
+        <span className="flex flex-col items-center gap-y-1">
+          <p className="font-bold text-4xl">23</p>
+          <p className="font-semibold text-gray-800 text-lg uppercase">
+            Analytics Tools
+          </p>
+        </span>
+
+        <span className="flex flex-col items-center gap-y-1">
+          <p className="font-bold text-4xl">39</p>
+          <p className="font-semibold text-gray-800 text-lg uppercase">
+            Automations
+          </p>
+        </span>
+      </div>
     </main>
   );
 }
